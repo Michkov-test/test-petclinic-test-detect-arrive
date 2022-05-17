@@ -26,7 +26,7 @@ spec:
       - name: git-url
         value: https://github.com/mmorhun-org/devfile-sample-code-with-quarkus
       - name: output-image
-        value: docker.io/mm4eche/foobar:dev-code-with-quarkus-$(tt.params.git-revision)
+        value: quay.io/redhat-appstudio/user-workload:test-component-sample-$(tt.params.git-revision)
       - name: dockerfile
         value: src/main/docker/Dockerfile.jvm.staged
       - name: path-context
